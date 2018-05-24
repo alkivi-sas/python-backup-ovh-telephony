@@ -17,9 +17,7 @@ from alkivi.logger import Logger
 logger = Logger(min_log_level_to_mail=logging.CRITICAL,
                 min_log_level_to_save=logging.DEBUG,
                 min_log_level_to_print=logging.INFO,
-                min_log_level_to_syslog=None,
-                filename='/var/log/alkivi/backup-all-telephony.py.log',
-                emails=['monitoring@alkivi.fr'])
+                min_log_level_to_syslog=None)
 
 # Optional lock file
 LOCK = Lock()

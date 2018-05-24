@@ -14,4 +14,4 @@ click = "*"
 alkivi-logger = "*"
 
 [requires]
-python_version = "3.5"
+python_version = "3"
